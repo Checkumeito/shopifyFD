@@ -28,5 +28,5 @@ Don't be a tool and pass this off as your own. Contribute!
 */
 var shopifyFD = document.createElement("script");
 shopifyFD.type = "text/javascript";
-shopifyFD.src = "//freakdesign-us.s3.amazonaws.com/shopify/shopifyFD/s/shopifyFD.min.js";
+shopifyFD.src = "//raw.githubusercontent.com/Checkumeito/shopifyFD/master/shopifyFD.js";
 document.getElementsByTagName('head')[0].appendChild(shopifyFD);
