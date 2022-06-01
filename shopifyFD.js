@@ -27,7 +27,7 @@
   "use strict";
 
   /* Sanity checks */
-  if(document.URL.indexOf("myshopify.com/admin")<0){ return alert('Error: Shopify Admin not found') }
+  if(document.URL.indexOf("myharavan.com/admin")<0){ return alert('Error: Shopify Admin not found') }
   if(typeof Shopify === 'undefined'){ return alert('Error: Shopify object not found') }
   if(typeof jQuery === 'undefined'){ return alert('Error: jQuery not found') }
   if(!!document.getElementById("shopifyfd-css")){
